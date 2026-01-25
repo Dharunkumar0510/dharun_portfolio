@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #0b0b12;
+    color: #eee;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(135deg, #7f00ff, #ff007f);
+}
+
+.profile-pic {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 4px solid #000;
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    margin: 10px 0 5px;
+}
+
+.hero p {
+    margin-bottom: 15px;
+}
+
+.btn-group a {
+    display: inline-block;
+    margin: 8px;
+    padding: 10px 20px;
+    background: black;
+    color: #ff77ff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+}
+
+.btn-group .resume {
+    background: #ff007f;
+    color: white;
+}
+
+section {
+    background: #161625;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 15px;
+}
+
+h2 {
+    color: #ff77ff;
+}
+
+.skills span {
+    display: inline-block;
+    background: linear-gradient(135deg, #ff007f, #7f00ff);
+    padding: 7px 16px;
+    margin: 6px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.card {
+    background: #1f1f35;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 4px solid #ff007f;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: black;
+    color: #aaa;
+}
