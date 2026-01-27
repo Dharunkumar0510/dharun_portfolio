@@ -10,14 +10,16 @@ body {
     padding: 50px 20px;
     background: linear-gradient(135deg, #7f00ff, #ff007f);
 }
-
 .profile-pic {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    border: 4px solid #000;
-    margin-bottom: 10px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  box-shadow: 0 0 20px rgba(255, 0, 255, 0.6);
+  object-fit: cover;
 }
+
+
 
 .hero h1 {
     margin: 10px 0 5px;
